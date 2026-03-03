@@ -44,13 +44,6 @@ if is_going_to_rain:
         from_="+16416663460",
         to="+33640610093",
     )
-else:
-    client = Client(account_sid, auth_token)
-    message = client.messages.create(
-        body="No rain is expected today, you're lucky!",
-        from_="+16416663460",
-        to="+33640610093",
-    )
 
 """
 Environment variables are external key–value settings stored by the operating system. They are useful for keeping 
